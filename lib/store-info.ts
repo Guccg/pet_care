@@ -1,6 +1,6 @@
 export const storeInfo = {
-  name: "沐爪宠物洗护店",
-  shortName: "沐爪宠物洗护",
+  name: "满仓宠物店",
+  shortName: "满仓宠物店",
   phone: "400-618-7726",
   hours: "周一至周日 10:00-20:00",
   address: "苏州市吴江区万象汇 B101",
