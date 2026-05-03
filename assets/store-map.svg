@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">沐爪宠物洗护店位置地图</title>
+  <desc id="desc">苏州市吴江区万象汇 B101 附近的清新宠物店风格地图，标记门店所在位置。</desc>
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#12624f" flood-opacity=".18"/>
+    </filter>
+    <linearGradient id="water" x1="0" x2="1">
+      <stop offset="0" stop-color="#c9f0f6"/>
+      <stop offset="1" stop-color="#94ddea"/>
+    </linearGradient>
+    <pattern id="pawDots" width="88" height="88" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="20" r="4" fill="#b7e7dc" opacity=".5"/>
+      <circle cx="30" cy="18" r="3" fill="#b7e7dc" opacity=".45"/>
+      <circle cx="42" cy="22" r="3.5" fill="#b7e7dc" opacity=".45"/>
+      <ellipse cx="30" cy="34" rx="10" ry="8" fill="#b7e7dc" opacity=".36"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="760" rx="28" fill="#f8fcf8"/>
+  <rect width="1200" height="760" rx="28" fill="url(#pawDots)"/>
+  <path d="M1048 -40 C1028 95 1075 178 1120 260 C1176 362 1127 480 1082 568 C1056 620 1050 694 1070 800" fill="none" stroke="url(#water)" stroke-width="88" stroke-linecap="round"/>
+  <path d="M1116 -40 C1096 91 1148 176 1184 262 C1226 362 1190 468 1142 570 C1116 625 1116 694 1136 800" fill="none" stroke="#e5fbff" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+  <path d="M0 708 C250 690 377 706 542 696 C735 685 912 712 1200 690" fill="none" stroke="url(#water)" stroke-width="44" opacity=".8"/>
+  <g fill="#eaf3f4" stroke="#d9e6e8" stroke-width="3">
+    <rect x="70" y="64" width="210" height="128" rx="16"/>
+    <rect x="330" y="52" width="230" height="122" rx="16"/>
+    <rect x="604" y="68" width="208" height="112" rx="16"/>
+    <rect x="74" y="272" width="228" height="142" rx="18"/>
+    <rect x="346" y="250" width="206" height="154" rx="18"/>
+    <rect x="610" y="248" width="210" height="150" rx="18"/>
+    <rect x="824" y="222" width="196" height="198" rx="18"/>
+    <rect x="70" y="492" width="240" height="148" rx="18"/>
+    <rect x="356" y="482" width="214" height="160" rx="18"/>
+    <rect x="624" y="492" width="210" height="142" rx="18"/>
+    <rect x="854" y="510" width="168" height="124" rx="18"/>
+  </g>
+  <g fill="#e3f5ef" stroke="#cfe8df" stroke-width="3">
+    <path d="M12 424 h232 c28 0 50 22 50 50 v178 H12 Z"/>
+    <rect x="594" y="300" width="218" height="126" rx="18"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-35 104 H1236" stroke="#ffe2a1" stroke-width="32"/>
+    <path d="M-35 104 H1236" stroke="#fff1c9" stroke-width="18"/>
+    <path d="M-36 332 H1236" stroke="#ffe2a1" stroke-width="34"/>
+    <path d="M-36 332 H1236" stroke="#fff1c9" stroke-width="19"/>
+    <path d="M-20 692 H1236" stroke="#ffe2a1" stroke-width="32"/>
+    <path d="M-20 692 H1236" stroke="#fff1c9" stroke-width="18"/>
+    <path d="M338 -30 L356 804" stroke="#ffe2a1" stroke-width="28"/>
+    <path d="M338 -30 L356 804" stroke="#fff1c9" stroke-width="14"/>
+    <path d="M568 -30 L586 804" stroke="#ffe2a1" stroke-width="28"/>
+    <path d="M568 -30 L586 804" stroke="#fff1c9" stroke-width="14"/>
+    <path d="M813 -40 C838 130 813 228 800 354 C787 486 824 598 824 805" stroke="#f8d58a" stroke-width="26"/>
+    <path d="M813 -40 C838 130 813 228 800 354 C787 486 824 598 824 805" stroke="#fff1c9" stroke-width="13"/>
+    <path d="M1038 -34 C986 120 1002 230 1072 340 C1122 419 1070 556 1030 705" stroke="#f8d58a" stroke-width="34"/>
+    <path d="M1038 -34 C986 120 1002 230 1072 340 C1122 419 1070 556 1030 705" stroke="#fff1c9" stroke-width="18"/>
+    <path d="M76 234 H792" stroke="#f4f7f1" stroke-width="18"/>
+    <path d="M562 430 H1002" stroke="#f4f7f1" stroke-width="18"/>
+  </g>
+  <g font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-weight="700" fill="#687787">
+    <text x="98" y="93" font-size="24">高新路</text>
+    <text x="535" y="92" font-size="24">高新路</text>
+    <text x="214" y="322" font-size="23">开平路</text>
+    <text x="754" y="322" font-size="23">开平路</text>
+    <text x="760" y="459" font-size="22">联谊路</text>
+    <text x="676" y="686" font-size="22">松陵大道</text>
+    <text x="526" y="548" font-size="22" transform="rotate(88 526 548)">秋枫街</text>
+    <text x="786" y="565" font-size="22" transform="rotate(88 786 565)">冬梅街</text>
+    <text x="324" y="204" font-size="20">风华上品花园</text>
+    <text x="610" y="202" font-size="20">中交璟庭</text>
+    <text x="138" y="476" font-size="20">联建村</text>
+    <text x="618" y="526" font-size="22" fill="#5d9b91">苏州湾实验小学</text>
+    <text x="846" y="278" font-size="21">枫月一号</text>
+    <text x="868" y="308" font-size="21">枫香花园一期</text>
+    <text x="392" y="424" font-size="20">苏州吴江远洋</text>
+    <text x="410" y="454" font-size="20">未来广场</text>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="594" y="292" width="220" height="100" rx="18" fill="#e7fbf4" stroke="#6fc7ad" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="704" y="330" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="800" fill="#12624f">苏州吴江</text>
+    <text x="704" y="363" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="800" fill="#12624f">万象汇 B101</text>
+  </g>
+  <g transform="translate(704 278)" filter="url(#softShadow)">
+    <path d="M0 -76 C-38 -76 -68 -47 -68 -10 C-68 40 -16 81 0 106 C16 81 68 40 68 -10 C68 -47 38 -76 0 -76Z" fill="#e86f51"/>
+    <circle cx="0" cy="-15" r="36" fill="#fff8ee"/>
+    <path d="M-26 -12 C-22 -32 -10 -43 0 -43 C10 -43 22 -32 26 -12 C32 13 18 29 0 29 C-18 29 -32 13 -26 -12Z" fill="#1f8a70"/>
+    <circle cx="-12" cy="-18" r="4" fill="#fff"/>
+    <circle cx="12" cy="-18" r="4" fill="#fff"/>
+    <path d="M-12 2 C-3 10 3 10 12 2" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <text x="0" y="142" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="900" fill="#12624f">我们在这里</text>
+  </g>
+  <g transform="translate(898 642)">
+    <rect x="-112" y="-42" width="224" height="84" rx="42" fill="#ffffff" opacity=".9"/>
+    <circle cx="-70" cy="-4" r="10" fill="#f3c969"/>
+    <circle cx="-48" cy="-15" r="8" fill="#f3c969"/>
+    <circle cx="-27" cy="-6" r="8" fill="#f3c969"/>
+    <ellipse cx="-49" cy="12" rx="20" ry="15" fill="#f3c969"/>
+    <text x="-8" y="10" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="22" font-weight="800" fill="#12624f">宠物友好入口</text>
+  </g>
+</svg>
