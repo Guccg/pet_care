@@ -207,16 +207,6 @@ export default function Home() {
                 。提交预约后会在营业时间内确认档期，急单建议直接电话联系。
               </p>
             </div>
-            <div className="map-frame">
-              <Image
-                src={storeInfo.mapImage}
-                alt={storeInfo.mapAlt}
-                width={1200}
-                height={760}
-                sizes="(max-width: 920px) 100vw, 55vw"
-                priority
-              />
-            </div>
             <div className="location-details">
               <div>
                 <strong>{storeInfo.name}</strong>
@@ -228,6 +218,16 @@ export default function Home() {
                 <span>⌚ {storeInfo.hours}</span>
                 <span>⌖ 导航搜索：{storeInfo.navigationKeyword}</span>
               </div>
+            </div>
+            <div className="map-frame">
+              <Image
+                src={storeInfo.mapImage}
+                alt={storeInfo.mapAlt}
+                width={1200}
+                height={760}
+                sizes="(max-width: 920px) 100vw, 440px"
+                priority
+              />
             </div>
           </div>
           <BookingForm />

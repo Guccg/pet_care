@@ -5,11 +5,11 @@ export const storeInfo = {
   hours: "周一至周日 10:00-20:00",
   address: "苏州市吴江区万象汇 B101",
   areaHint: "靠近开平路与冬梅街交汇区域",
-  navigationKeyword: "苏州吴江万象汇",
+  navigationKeyword: "吴江万象汇满仓宠物店",
   mapImage: "/assets/store-map-generated.png",
   mapAlt: "苏州市吴江区万象汇 B101 门店位置地图",
   navigationNote:
-    "建议导航搜索“苏州吴江万象汇”，到达后前往 B101。到店前可先电话确认档期，避免宠物等待。",
+    "建议导航搜索“吴江万象汇满仓宠物店”，到达后前往 B101。到店前可先电话确认档期，避免宠物等待。",
 };
 
 export const bookingOptions = {
