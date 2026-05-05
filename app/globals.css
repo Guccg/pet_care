@@ -493,6 +493,22 @@ section {
   box-shadow: var(--shadow);
 }
 
+.form-heading {
+  margin-bottom: 20px;
+}
+
+.form-heading h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+.form-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

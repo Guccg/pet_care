@@ -67,7 +67,22 @@ export function BookingForm() {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
+      <div className="form-heading">
+        <h3>快速预约</h3>
+        <p>
+          提交后最快 10 分钟会响应您的预约。您的手机会收到一条预约成功的短消息。
+        </p>
+      </div>
       <div className="form-grid">
+        <label className="wide">
+          期望到店时间
+          <input
+            name="expectedArrival"
+            type="datetime-local"
+            required
+            aria-label="期望到店时间"
+          />
+        </label>
         <label>
           联系人
           <input name="name" autoComplete="name" required placeholder="您的姓名" />
@@ -99,15 +114,6 @@ export function BookingForm() {
               <option key={service}>{service}</option>
             ))}
           </select>
-        </label>
-        <label className="wide">
-          期望到店时间
-          <input
-            name="expectedArrival"
-            type="datetime-local"
-            required
-            aria-label="期望到店时间"
-          />
         </label>
         <label className="wide">
           备注
