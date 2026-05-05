@@ -12,12 +12,29 @@ type BookingResponse =
   | { ok: true; message: string }
   | { ok: false; error: string };
 
+
+
+function buildTomorrowMorningDefault() {
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(10, 30, 0, 0);
+
+  const year = tomorrow.getFullYear();
+  const month = String(tomorrow.getMonth() + 1).padStart(2, "0");
+  const day = String(tomorrow.getDate()).padStart(2, "0");
+  const hours = String(tomorrow.getHours()).padStart(2, "0");
+  const minutes = String(tomorrow.getMinutes()).padStart(2, "0");
+
+  return `${year}-${month}-${day}T${hours}:${minutes}`;
+}
+
 export function BookingForm() {
   const [submitState, setSubmitState] = useState<SubmitState>({
     kind: "idle",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [defaultExpectedArrival] = useState(buildTomorrowMorningDefault);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -81,6 +98,7 @@ export function BookingForm() {
             type="datetime-local"
             required
             aria-label="期望到店时间"
+            defaultValue={defaultExpectedArrival}
           />
         </label>
         <label>
